@@ -1,0 +1,19 @@
+.dashboard-body {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.side-bar-wrapper {
+    width: 15%;
+    height: 100%;
+}
+
+.main-area-wrapper {
+    width: 85%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 20px 30px;
+    background-color: whitesmoke;
+}

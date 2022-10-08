@@ -1,0 +1,56 @@
+.sidebar-box {
+    padding: 60px 10px 15px;
+}
+.bolt-img {
+    color: white;
+    padding: 5px;
+    background: #394048;
+    font-size: 9px;
+    border-radius: 3px;
+    margin-right: 12px;
+}
+.smartup {
+    font-weight: 600;
+    color: #616178;
+    font-size: 22px;
+}
+.profile {
+    font-weight: 600;
+    color: #b8babd;
+    font-size: 17px;
+}
+
+.menu-img{
+    font-size: 20px;
+    color: gray;
+}
+.avatar-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 12px;
+}
+.num-style{
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+    padding-right: 10px;
+}
+
+.notification-img{
+    color: white;
+    background: red;
+    width: 21px;
+    height: 21px;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.bolt-img1 {
+    color: #394048;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}

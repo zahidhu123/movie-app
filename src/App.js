@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages/home/home';
+import { Route, Routes } from 'react-router';
+import TopRated from './component/top-rated/topRated';
+import NewRelease from './component/new-release/newRelease';
+import Latest from './component/latest/latest';
+import HighRated from './component/high-rated/highRated';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="" element={<Home />} >
+          <Route path="/top-rated" element={<TopRated />} /> 
+          <Route path="/new-release" element={<NewRelease />} />
+          <Route path="/latest" element={<Latest />} />
+          <Route path="/high-rated" element={<HighRated />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
