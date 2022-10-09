@@ -6,7 +6,7 @@ export default function TopRated(props) {
     const { data } = props
     const [newsCard, setNewsCard] = useState([])
 
-    useEffect (() =>{
+    useEffect(() => {
         console.log('zahid');
         getNewsCardApi();
     }, []);
@@ -25,20 +25,18 @@ export default function TopRated(props) {
     return (
         <>
             <div className='p-4'>
-                <h2 className='fs-4 '>Top Rated</h2>
-                <div className='row justify-content-between'>
-                    <div className="col-6">
-                        <p className='m-0'>Discover</p>
-                    </div>
-                </div>
+                <h2 className='fs-4 mb-5'>Trending movies</h2> 
                 <div className='scroll-area'>
                     <div className="row mt-3 mx-0">
                         {newsCard.map((data) => {
                             return (<div className="col-md-4 mb-4">
-                                <div className="card1">
-                                    <img src={data.backdrop_path} className="card-img-top" alt="House Image" />
+                                <div className="card1 shadow-lg">
+                                    <div className='img-wrapper'>
+                                        <img src={'https://image.tmdb.org/t/p/original' + data.poster_path} className="card-img-top card-img" alt="House Image" />
+                                    </div>
                                     <div className="card-body">
                                         <p className="card-text">{data.title}</p>
+                                        <p className='card-text'>{data.release_date}</p>
                                     </div>
                                 </div>
                             </div>)
