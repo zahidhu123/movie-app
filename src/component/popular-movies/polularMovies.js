@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { getNewsApi } from '../../apiService';
 import Modal from '../modal/modal';
 
-export default function TrendingMovies(props) {
+
+export default function PopularMovies(props) {
 
     const { data } = props
     const [newsCard, setNewsCard] = useState([])
@@ -36,7 +37,7 @@ export default function TrendingMovies(props) {
     return (
         <>
             <div className='p-4'>
-                <h2 className='trending mb-5'>Trending movies</h2>
+                <h2 className='trending mb-5'>Popular movies</h2>
                 <div className='scroll-area'>
                     <div className="row mt-3 mx-0">
                         {newsCard.map((data) => {
