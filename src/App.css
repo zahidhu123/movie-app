@@ -27,16 +27,49 @@
 .App-link {
   color: #61dafb;
 }
+
 .img-wrapper {
   width: 100%;
   height: 370px;
   object-fit: cover;
 }
 
-.card-img{
+.card-img {
   width: 100%;
   height: 100%;
 }
+
+.trending {
+  font-size: 35px;
+  font-weight: 600;
+  color: #292424;
+}
+
+.card-text {
+  font-size: 18px;
+  color: darkslategray;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.more{
+  font-size: 16px;
+  font-weight: 600;
+  color: rebeccapurple;
+  margin-bottom: 0px;
+}
+
+
+.btn {
+  line-height: 1.5;
+  color: #212529;
+  padding: 0px;
+  font-size: 1rem;
+  border-radius: 0px !important;
+  outline: none !important;
+  
+}
+
 
 
 
@@ -45,6 +78,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

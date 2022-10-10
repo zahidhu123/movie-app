@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { getNewsApi } from '../../apiService';
+import Modal from '../modal/modal';
 
-export default function TopRated(props) {
+export default function TrendingMovies(props) {
 
     const { data } = props
     const [newsCard, setNewsCard] = useState([])
@@ -25,7 +26,7 @@ export default function TopRated(props) {
     return (
         <>
             <div className='p-4'>
-                <h2 className='fs-4 mb-5'>Trending movies</h2> 
+                <h2 className='trending mb-5'>Trending movies</h2>
                 <div className='scroll-area'>
                     <div className="row mt-3 mx-0">
                         {newsCard.map((data) => {
@@ -36,7 +37,7 @@ export default function TopRated(props) {
                                     </div>
                                     <div className="card-body">
                                         <p className="card-text">{data.title}</p>
-                                        <p className='card-text'>{data.release_date}</p>
+                                        <Modal></Modal>
                                     </div>
                                 </div>
                             </div>)
