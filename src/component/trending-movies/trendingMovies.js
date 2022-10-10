@@ -6,6 +6,8 @@ export default function TrendingMovies(props) {
 
     const { data } = props
     const [newsCard, setNewsCard] = useState([])
+    const [shariq, setshariq] = useState('')
+    const [activeModal, setActiveModal] = useState(false)
 
     useEffect(() => {
         console.log('zahid');
@@ -22,6 +24,14 @@ export default function TrendingMovies(props) {
         })
     }
 
+   function sendData(data){
+     console.log(data)
+     setshariq(data)
+     setActiveModal(true) 
+   }
+   function closeModal(){
+    setActiveModal(false)
+   }
 
     return (
         <>
@@ -30,14 +40,13 @@ export default function TrendingMovies(props) {
                 <div className='scroll-area'>
                     <div className="row mt-3 mx-0">
                         {newsCard.map((data) => {
-                            return (<div className="col-md-4 mb-4">
-                                <div className="card1 shadow-lg">
+                            return (<div className="col-md-4 mb-4 ">
+                                <div className="card1 shadow-lg" onClick={()=> sendData(data)}>
                                     <div className='img-wrapper'>
-                                        <img src={'https://image.tmdb.org/t/p/original' + data.poster_path} className="card-img-top card-img" alt="House Image" />
+                                        <img src={'https://image.tmdb.org/t/p/original' + data.poster_path} className="card-img-top card-img img-fluid" alt="House Image" />
                                     </div>
                                     <div className="card-body">
                                         <p className="card-text">{data.title}</p>
-                                        <Modal></Modal>
                                     </div>
                                 </div>
                             </div>)
@@ -45,6 +54,8 @@ export default function TrendingMovies(props) {
                     </div>
                 </div>
             </div>
+            <Modal movieData={shariq} openModal={activeModal} onClose={()=>closeModal()}/>
+
         </>
     )
 }

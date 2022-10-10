@@ -17,3 +17,20 @@
     padding: 20px 30px;
     background-color: whitesmoke;
 }
+.big-wrapper{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .main-area-wrapper {
+        overflow-y: scroll;
+        padding: 0px 0px;
+    }
+    .big-wrapper {
+        height: 250px;
+    }
+}
+

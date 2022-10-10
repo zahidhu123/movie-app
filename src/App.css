@@ -52,7 +52,7 @@
   margin-bottom: 5px;
 }
 
-.more{
+.more {
   font-size: 16px;
   font-weight: 600;
   color: rebeccapurple;
@@ -67,8 +67,39 @@
   font-size: 1rem;
   border-radius: 0px !important;
   outline: none !important;
-  
+
 }
+
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 0rem 1rem;
+  border-bottom: none;
+}
+
+.language {
+  font-size: 16px;
+  color: darkslategray;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.language1 {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.overview {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+
 
 
 
@@ -82,4 +113,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .sidebar-box {
+    padding: 25px 3px 16px;
+  }
+
+  .img-wrapper {
+    height: 270px;
+  }
+
+  .trending {
+    font-size: 25px;
+}
 }

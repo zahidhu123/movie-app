@@ -6,7 +6,7 @@ export default function Sidebar() {
     return (
         <>
             <div>
-                <div className='sidebar-box px-4'>
+                <div className='sidebar-box'>
                     <div className='d-flex justify-content-between align-items-center mt-2 mb-3'>
                         <div className='d-flex align-items-center'>
                             <NavLink>
