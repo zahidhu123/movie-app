@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getNewsApi } from '../../apiService'
+import { getNewsApi, getNewsSecoundApi } from '../../apiService'
 import Modal from '../modal/modal'
 
 export default function NewRelease(props) {
@@ -17,7 +17,7 @@ export default function NewRelease(props) {
 
 
   function getNewsCardApi() {
-    getNewsApi().then((result) => {
+    getNewsSecoundApi().then((result) => {
       console.log(result);
       setNewsCard(result.data.data.results);
       console.log(result.data.data.results);
