@@ -56,7 +56,6 @@ export default function PopularMovies(props) {
                 </div>
             </div>
             <Modal movieData={shariq} openModal={activeModal} onClose={()=>closeModal()}/>
-
         </>
     )
 }

@@ -60,7 +60,6 @@ export default function Modal(props) {
                                         <span className='language1'>{props.movieData.vote_count}</span>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
