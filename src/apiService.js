@@ -8,3 +8,9 @@ export function getNewsApi() {
  export function getNewsSecoundApi() {
     return  axios.get(`https://movie-task.vercel.app/api/popular?page=2`)
  }
+
+ export function getNewsThirdApi() {
+    return  axios.get(`https://movie-task.vercel.app/api/popular?page=3`)
+ }
+
+
