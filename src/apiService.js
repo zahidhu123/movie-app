@@ -13,4 +13,10 @@ export function getNewsApi() {
     return  axios.get(`https://movie-task.vercel.app/api/popular?page=3`)
  }
 
+ export function getHighRatedApi() {
+    return  axios.get(`https://movie-task.vercel.app/api/popular?page=4`)
+ }
+
+
+
 
