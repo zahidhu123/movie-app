@@ -34,7 +34,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/latest'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
-                                <p className='profile m-0'>Latest</p>
+                                <p className='profile m-0'>Latest Movie</p>
                             </NavLink>
                         </div>
                     </div>
