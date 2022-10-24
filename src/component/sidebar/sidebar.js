@@ -19,6 +19,7 @@ export default function Sidebar() {
                             <NavLink to={'/popular-movies'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
                                 <p className='profile m-0'>Popular Movies</p>
+                                <sup className='movie-power'> {'20'} </sup>
                             </NavLink>
                         </div>
                     </div>

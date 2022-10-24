@@ -1,5 +1,5 @@
 .sidebar-box {
-    padding: 60px 35px 15px 35px;
+    padding: 60px 20px 15px 35px;
 }
 
 .bolt-img {
@@ -70,6 +70,18 @@ a {
     width: 15px;
     padding-right: 25px;
     color: #394048;
+}
+
+.movie-power {
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 
