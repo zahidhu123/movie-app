@@ -10,7 +10,7 @@ export default function Sidebar() {
                     <div className='d-flex justify-content-between align-items-center mt-2 mb-3'>
                         <div className='d-flex align-items-center'>
                             <NavLink>
-                                <p className='smartup m-0'>Movie App</p>
+                                <p className='smartup m-0'>MENU</p>
                             </NavLink>
                         </div>
                     </div>
@@ -18,7 +18,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/popular-movies'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
-                                <p className='profile m-0'>Popular Movies</p>
+                                <p className='profile m-0'>Home</p>
                                 <sup className='movie-power'> {'20'} </sup>
                             </NavLink>
                         </div>
@@ -27,7 +27,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/new-release'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
-                                <p className='profile m-0'>New Release</p>
+                                <p className='profile m-0'>Discovery</p>
                             </NavLink>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/latest'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
-                                <p className='profile m-0'>Latest Movie</p>
+                                <p className='profile m-0'>Community</p>
                             </NavLink>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/high-rated'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
-                                <p className='profile m-0'>High Rated</p>
+                                <p className='profile m-0'>Coming soon</p>
                             </NavLink>
                         </div>
                     </div>
