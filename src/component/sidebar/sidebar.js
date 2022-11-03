@@ -25,7 +25,7 @@ export default function Sidebar() {
                     </div>
                     <div className='d-flex justify-content-between align-items-center mb-4'>
                         <div className='d-flex align-items-center'>
-                            <NavLink to={'/new-release'} className="home-wrapper">
+                            <NavLink to={'/discovery'} className="home-wrapper">
                                 <i className="fa-solid fa-house home-img"></i>
                                 <p className='profile m-0'>Discovery</p>
                             </NavLink>

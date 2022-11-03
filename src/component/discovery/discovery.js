@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { getNewsApi, getNewsSecoundApi } from '../../apiService'
 import Modal from '../modal/modal'
 
-export default function NewRelease(props) {
+export default function Discovery(props) {
 
   const { data } = props
   const [newsCard, setNewsCard] = useState([])
