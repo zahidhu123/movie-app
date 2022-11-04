@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { MdDashboardCustomize, MdNotificationsActive, MdSensors } from 'react-icons/md'
+
+
 
 export default function Header() {
 
@@ -22,13 +25,21 @@ export default function Header() {
 
     return (
 
-        <div>
-            <div className="row">
-                <div className="col-lg-6">
-                    <p>scdfbg</p>
+        <div className='px-4'>
+            <div className="row justify-content-between">
+                <div className="col-lg-4">
+                    <div className='d-flex justify-content-between'>
+                        <p>Movies</p>
+                        <p>series</p>
+                        <p>TvShows</p>
+                    </div>
                 </div>
-                <div className="col-lg-6">
-                    <p>hjhgfd</p>
+                <div className="col-lg-2">
+                    <div className='d-flex justify-content-between'>
+                        <MdSensors size={20} />
+                        <MdNotificationsActive size={20} />
+                        <MdDashboardCustomize  size={20}/>
+                    </div>
                 </div>
             </div>
         </div>

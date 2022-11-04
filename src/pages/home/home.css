@@ -11,11 +11,15 @@
 }
 
 .main-area-wrapper {
-    width: 85%;
+    width: 70%;
     height: 100%;
     overflow-y: scroll;
     padding: 20px 30px;
     background-color: whitesmoke;
+}
+.right-side-wrapper{
+    width: 15%;
+    height: 100%;
 }
 .big-wrapper{
     width: 100%;
