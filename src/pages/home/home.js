@@ -14,7 +14,7 @@ export default function Home() {
             <div className='main-area-wrapper'>
                 <div className='row mt-4'>
                     <div className="col-lg-6">
-                        <Search />
+                        <Header />
                     </div>
                 </div>
                 <Outlet />
