@@ -1,17 +1,28 @@
-import React from 'react'
+import React from 'react';
+import Avatar from '../../assets/avatar.jpg'
+import "./profile.css"
 
 export default function Profile() {
     return (
         <div>
-            <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
+            <div className="dropdown">
+                <a className=" btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {/* Dropdown link */}
+
+                    <div className='d-flex align-items-center'>
+                        <div className='avatar-wrapper1'>
+                            <img src={Avatar} className="avatar-img1" alt="profile-pic" />
+                        </div>
+                        <div>
+                            <p className='mb-0 text-start'>Zahid</p>
+                            <p className='mb-0'>abc@gmail.com</p>
+                        </div>
+                    </div>
                 </a>
 
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Setting</a></li>
+                    <li><a className="dropdown-item" href="#">Logout</a></li>
                 </ul>
             </div>
         </div>
