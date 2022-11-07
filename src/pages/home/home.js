@@ -13,7 +13,7 @@ export default function Home() {
                 <Sidebar />
             </div>
             <div className='main-area-wrapper'>
-                <div className='mt-4'>
+                <div className=''>
                     <Header />
                 </div>
                 <Outlet />
