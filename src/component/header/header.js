@@ -1,5 +1,6 @@
 import React from 'react';
-import { MdDashboardCustomize, MdNotificationsActive, MdSensors } from 'react-icons/md'
+import { MdDashboardCustomize, MdNotificationsActive, MdSensors } from 'react-icons/md';
+import "./header.css"
 
 
 
@@ -29,9 +30,9 @@ export default function Header() {
             <div className="row justify-content-between">
                 <div className="col-lg-4">
                     <div className='d-flex justify-content-between'>
-                        <p>Movies</p>
-                        <p>series</p>
-                        <p>TvShows</p>
+                        <p className='m-title'>Movies</p>
+                        <p className='m-title'>series</p>
+                        <p className='m-title'>TvShows</p>
                     </div>
                 </div>
                 <div className="col-lg-2">
