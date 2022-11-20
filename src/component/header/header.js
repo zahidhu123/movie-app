@@ -39,11 +39,11 @@ export default function Header() {
                     <div className='d-flex justify-content-between'>
                         <MdSensors size={20} />
                         <MdNotificationsActive size={20} />
-                        <MdDashboardCustomize  size={20}/>
+                        <MdDashboardCustomize size={20} />
                     </div>
                 </div>
             </div>
-            <p>Header Page</p>
+            <p className='m-title'>Header Page</p>
         </div>
 
 
