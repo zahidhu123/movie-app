@@ -26,7 +26,7 @@ export default function Header() {
 
     return (
 
-        <div className='px-4'>
+        <div className='px-4 pt-2'>
             <div className="row justify-content-between">
                 <div className="col-lg-4">
                     <div className='d-flex justify-content-between'>
