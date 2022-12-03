@@ -41,7 +41,7 @@ export default function PopularMovies(props) {
                 <div className='scroll-area'>
                     <div className="row mt-3 mx-0">
                         {newsCard.map((data) => {
-                            return (<div className="col-md-4 mb-4 ">
+                            return (<div className="col-md-4 mb-3 ">
                                 <div className="card1 shadow-lg" onClick={()=> sendData(data)}>
                                     <div className='img-wrapper'>
                                         <img src={'https://image.tmdb.org/t/p/original' + data.poster_path} className="card-img-top card-img img-fluid" alt="House Image" />
