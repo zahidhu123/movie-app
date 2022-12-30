@@ -43,9 +43,17 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <p className='m-title'>Header 1</p>
-            <p className='m-title'>Header 2</p>
-            <p className='m-title'>Header 3</p>
+            <div className="row">
+                <div className="col-lg-5">
+                    <div className='d-flex justify-content-between'>
+                        <p className='m-title'>Header 1</p>
+                        <p className='m-title'>Header 2</p>
+                        <p className='m-title'>Header 3</p>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
 
 

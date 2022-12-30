@@ -37,7 +37,7 @@ export default function HighRated(props) {
   return (
     <>
       <div className='p-4'>
-        <h2 className='trending mb-5'>High Rated</h2>
+        <h2 className='trending mb-5'>High Rateded</h2>
         <h2>New</h2>
         <div className='scroll-area'>
           <div className="row mt-3 mx-0">
