@@ -45,6 +45,7 @@ export default function Header() {
             </div>
             <p className='m-title'>Header 1</p>
             <p className='m-title'>Header 2</p>
+            <p className='m-title'>Header 3</p>
         </div>
 
 
