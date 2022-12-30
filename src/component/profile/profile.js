@@ -6,7 +6,7 @@ export default function Profile() {
     return (
         <div>
             <div className="dropdown">
-                <a className=" btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className=" dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     {/* Dropdown link */}
 
                     <div className='d-flex align-items-center'>
