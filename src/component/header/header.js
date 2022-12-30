@@ -32,7 +32,7 @@ export default function Header() {
                     <div className='d-flex justify-content-between'>
                         <p className='m-title'>Movies</p>
                         <p className='m-title'>series</p>
-                        <p className='m-title'>TvShows</p>
+                        <p className='m-title'>TvShow</p>
                     </div>
                 </div>
                 <div className="col-lg-2">
