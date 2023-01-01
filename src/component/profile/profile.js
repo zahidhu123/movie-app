@@ -17,6 +17,7 @@ export default function Profile() {
                             <p className='mb-0 text-start'>Zahid</p>
                             <p className='mb-0'>abc@gmail.com</p>
                         </div>
+                        <p>logo</p>
                     </div>
                 </a>
 
