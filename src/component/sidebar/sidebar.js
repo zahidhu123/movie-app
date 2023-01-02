@@ -93,7 +93,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/high-rated'} className="home-wrapper">
                                 <MdOutlineSettings className="icon-img" />
-                                <p className='home-nav-title m-0'>Settings</p>
+                                <p className='home-nav-title m-0'>Setting</p>
                             </NavLink>
                         </div>
                     </div>
