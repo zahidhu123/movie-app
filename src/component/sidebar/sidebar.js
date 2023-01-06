@@ -102,6 +102,7 @@ export default function Sidebar() {
                             <NavLink to={'/high-rated'} className="home-wrapper">
                                 <MdOutlineHelpOutline className="icon-img" />
                                 <p className='home-nav-title m-0'>Help</p>
+                                <p className='home-nav-title m-0'>contact</p>
                             </NavLink>
                         </div>
                     </div>
