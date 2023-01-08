@@ -103,6 +103,7 @@ export default function Sidebar() {
                                 <MdOutlineHelpOutline className="icon-img" />
                                 <p className='home-nav-title m-0'>Help</p>
                                 <p className='home-nav-title m-0'>contact</p>
+                                <p className='home-nav-title m-0'>Latest</p>
                             </NavLink>
                         </div>
                     </div>
