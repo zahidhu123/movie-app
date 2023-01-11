@@ -37,7 +37,7 @@ export default function Latest(props) {
   return (
     <>
       <div className='p-4'>
-        <h2 className='trending mb-5'>Popular movies List</h2>
+        <h2 className='trending mb-5'>Popular movies List 1</h2>
         <div className='scroll-area'>
           <div className="row mt-3 mx-0">
             {newsCard.map((data) => {
