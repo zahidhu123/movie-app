@@ -10,6 +10,7 @@ export default function PopularMovies(props) {
     const [shariq, setshariq] = useState('')
     const [activeModal, setActiveModal] = useState(false)
     const [addData, setAddData] = useState('')
+    const [active, setActive] = useState('')
 
     useEffect(() => {
         console.log('zahid');
