@@ -15,7 +15,7 @@ export default function Profile() {
                         </div>
                         <div>
                             <p className='mb-0 text-start'>Zahid</p>
-                            <p className='mb-0'>abcd@gmail.com</p>
+                            <p className='mb-0'>abcdef@gmail.com</p>
                         </div>
                         <p>logo</p>
                     </div>
