@@ -15,8 +15,8 @@ export default function Discovery(props) {
   }, []);
 
 
-
   function getNewsCardApi() {
+    
     getNewsSecoundApi().then((result) => {
       console.log(result);
       setNewsCard(result.data.data.results);
