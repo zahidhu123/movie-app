@@ -38,8 +38,8 @@ export default function Header() {
                 <div className="col-lg-2">
                     <div className='d-flex justify-content-between'>
                         <MdSensors size={22} className="m-title" />
-                        <MdNotificationsActive size={21} className="m-title" />
-                        <MdDashboardCustomize size={21} className="m-title" />
+                        <MdNotificationsActive size={19} className="m-title" />
+                        <MdDashboardCustomize size={19} className="m-title" />
                     </div>
                 </div>
             </div>
