@@ -68,7 +68,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/high-rated'} className="home-wrapper">
                                 <MdOutlineBookmarkBorder className='icon-img' />
-                                <p className='home-nav-title m-0'>bookmarked</p>
+                                <p className='home-nav-title m-0'>Bookmarked</p>
                             </NavLink>
                         </div>
                     </div>
