@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getNewsApi } from '../../apiService';
 import Modal from '../modal/modal';
+import './polularMovies.css'
 
 
 export default function PopularMovies(props) {
