@@ -44,7 +44,7 @@ export default function Sidebar() {
                         <div className='d-flex align-items-center'>
                             <NavLink to={'/high-rated'} className="home-wrapper">
                                 <MdAlarmOn className="icon-img" />
-                                <p className='home-nav-title m-0'>Coming soon</p>
+                                <p className='home-nav-title m-0'>Coming Soon</p>
                             </NavLink>
                         </div>
                     </div>
