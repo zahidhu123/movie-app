@@ -10,7 +10,7 @@ export default function Profile() {
                     {/* Dropdown link */}
                     
 
-                    <div className='d-flex align-items-center'>
+                    <div className='d-flex flex-row align-items-center'>
                         <div className='avatar-wrapper1'>
                             <img src={Avatar} className="avatar-img1" alt="profile-pic" />
                         </div>
