@@ -8,6 +8,7 @@ export default function Profile() {
             <div className="dropdown">
                 <a className=" dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     {/* Dropdown link */}
+                    
 
                     <div className='d-flex align-items-center'>
                         <div className='avatar-wrapper1'>
