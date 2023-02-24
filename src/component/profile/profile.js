@@ -23,7 +23,7 @@ export default function Profile() {
                 </a>
 
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Logout </a></li>
+                    <li><a className="dropdown-item" href="#">Logout</a></li>
                     <li><a className="dropdown-item" href="#">Name</a></li>
                 </ul>
             </div>
