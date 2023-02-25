@@ -8,9 +8,9 @@ export default function Profile() {
             <div className="dropdown">
                 <a className=" dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     {/* Dropdown link */}
-                    
 
-                    <div className='d-flex flex-row align-items-center'>
+
+                    <div className=''>
                         <div className='avatar-wrapper1'>
                             <img src={Avatar} className="avatar-img1" alt="profile-pic" />
                         </div>
