@@ -15,8 +15,8 @@ export default function Profile() {
                             <img src={Avatar} className="avatar-img1" alt="profile-pic" />
                         </div>
                         <div>
-                            <p className='mb-0 text-start'>Zahid</p>
-                            <p className='mb-0'>abcdefabcd@gmail.com</p>
+                            <p className='mb-1 text-start'>Zahid</p>
+                            <p className='mb-1'>abcdefabcd@gmail.com</p>
                         </div>
                         <p>logo</p>
                     </div>
